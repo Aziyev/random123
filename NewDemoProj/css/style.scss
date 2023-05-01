@@ -1,0 +1,88 @@
+.main-home{
+    
+    display: flex;
+    height: 770px;
+    .main-left{
+        width: 30%;
+        height: 100%;
+        background: #DA4453;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .top-box{
+            width: 100%;
+            padding: 50px 0px 0px 70px;
+            h4{
+                font-size: 20px;
+                font-weight: 700;
+                color:rgba(255, 255, 255, 0.852) ;
+                margin-bottom: 20px;
+            }
+            .nothing{
+                width: 80%;
+                height: 10px;
+                background: #eeb1ee;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #eeb1ee, #96dbe8);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #eeb1ee, #96dbe8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+        }
+        .bottom-box{
+            position: relative;
+             padding: 0px 0px 150px 70px;
+             h4{
+                font-size: 20px;
+                font-weight: 700;
+                color:rgba(255, 255, 255, 0.852) ;
+                margin-bottom: 20px;
+             }
+             p{
+                color:rgba(255, 255, 255, 0.537);
+             }
+             button{
+                position: absolute;
+                top: 50%;
+                right: 15%;
+                padding: 10px 30px;
+                border: 1px solid rgba(255, 255, 255, 0.537);
+                background-color: transparent;
+                color: rgba(255, 255, 255, 0.537);
+                border-radius: 30px;
+                margin-top: 50px;
+             }
+        }
+
+        .bg-text{
+            position: absolute;
+            transform: rotate(270deg);
+            font-size: 150px;
+            letter-spacing: 15px;
+            color: rgba(226, 223, 223, 0.222);
+            top: 42%;
+            left: -43%;
+        }
+        .bg-text2{
+            position: absolute;
+          
+            font-size: 150px;
+            
+            color: rgba(226, 223, 223, 0.222);
+            top: 12%;
+            left: -157%;
+            background: -webkit-linear-gradient(#eeb1ee, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+        }
+
+    }
+    .main-right{
+        width: 70%;
+        height: 100%;
+        background: #eeb1ee;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #eeb1ee, #96dbe8);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #eeb1ee, #96dbe8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
