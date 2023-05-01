@@ -83,6 +83,11 @@
   background: -webkit-linear-gradient(#eeb1ee, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: 0.4s;
+}
+.main-home .main-left .main-left-container .bg-text2:hover {
+  cursor: pointer;
+  transform: scale(0.9);
 }
 .main-home .main-right {
   position: relative;
@@ -91,10 +96,17 @@
   background: #eeb1ee; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #eeb1ee, #96dbe8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.main-home .main-right img {
+.main-home .main-right .vase {
   position: absolute;
-  left: 100px;
+  left: 78px;
   transform: rotate(10deg);
+  transition: 0.4s;
+}
+.main-home .main-right .vase:hover {
+  transform: scale(1.1);
+  transform: rotate(15deg);
+  cursor: pointer;
+  left: 100px;
 }
 .main-home .main-right .right-nav {
   width: 10%;
@@ -122,4 +134,78 @@
   background: rgba(0, 0, 0, 0.155);
   cursor: pointer;
   transform: scale(0.9) rotateY(180deg);
+}
+.main-home .main-right .bottom-info {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.175);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+.main-home .main-right .bottom-info h4 {
+  padding-bottom: 20px;
+  color: white;
+}
+.main-home .main-right .bottom-info p {
+  color: rgba(255, 255, 255, 0.852);
+}
+.main-home .main-right .bottom-info .info-box {
+  width: 25%;
+  transition: 0.4s;
+}
+.main-home .main-right .bottom-info .info-box:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.main-home .main-right .man-info {
+  position: absolute;
+  top: 120px;
+  right: 60px;
+  width: 200px;
+}
+.main-home .main-right .man-info img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: 0.4s;
+}
+.main-home .main-right .man-info img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.main-home .main-right .man-info hr {
+  width: 100px;
+  padding: 1px;
+  background-color: white;
+  margin: 10px 0px;
+}
+.main-home .main-right .man-info h4 {
+  color: white;
+}
+.main-home .main-right .man-info p {
+  color: rgba(255, 255, 255, 0.504);
+}
+.main-home .main-right button {
+  position: absolute;
+  right: 180px;
+  bottom: 370px;
+  padding: 10px 30px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+.main-home .main-right button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
